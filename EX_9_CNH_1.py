@@ -14,3 +14,12 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+nome = input("Digite seu nome: ")
+idade = float(input("Informe a sua idade: "))
+
+print("Pode tirar a carteira de motorista?: ")
+
+if idade >= 18:
+    print("True.")
+else:
+    print("false.")

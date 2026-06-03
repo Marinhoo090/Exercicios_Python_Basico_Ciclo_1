@@ -37,3 +37,21 @@
 # Você andou 100.0km por 10 dias, então o preço a pagar é R$615.00.
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
+modelo = input("Qual é o modelo do carro?")
+dias = int(input("Por quantos dias o carro foi alugado? "))
+km = float(input("Quantos km o carro rodou? "))
+
+if modelo == "BMW":
+    diaria = 500
+
+elif modelo == "Opala":
+    diaria = 1000
+
+elif modelo == "chevette":
+    diaria = 1000
+
+else:
+    diaria = 60
+
+
+print(f'Você andou {km}km por {dias}dias, então o preço a pagar éR${(dias*diaria) + (km*0.15)}.')

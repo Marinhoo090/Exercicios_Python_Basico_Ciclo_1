@@ -17,3 +17,15 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+nome = input("Digite o nome do aluno(a): ")
+nt1 = float(input("Digite a primeira nota: "))
+nt2 = float(input("Digite a segunda nota:"))
+
+media = nt1 + nt2 / 2
+
+print("Aluno(a) aprovado(a)?: ")
+
+if media >= 6:
+    print("Aprovado(a)!")
+else:
+    print("Reprovado(a)!")

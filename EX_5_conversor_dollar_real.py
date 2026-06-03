@@ -9,5 +9,10 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+dollar = float(input("Digite o valor em dollar: "))
+convertido = float(input("Digite o valor em dollar a ser convetido para real: "))
 
+valor_real = convertido * dollar
+
+print("O valor convertido pro real é igual a: ",valor_real)
 

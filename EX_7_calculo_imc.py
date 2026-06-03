@@ -12,3 +12,9 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+altura = float(input("Qual a sua altura?: "))
+peso = float(input("Qual o seu peso?:"))
+
+imc = peso / (altura ** 2)
+
+print("seu IMC é: ",imc)

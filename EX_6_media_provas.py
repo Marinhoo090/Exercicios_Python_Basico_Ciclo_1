@@ -21,3 +21,28 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+nome = input("Digite o nome do aluno(a)")
+nt01 = float(input("Informe a primeira nota"))
+nt02 = float(input("informe a segunda nota"))
+nt03 = float(input("informe a terceira nota"))
+
+media = (nt01 + nt02 + nt03) / 3
+
+print("|_____________________________________________|")
+print("|SISTEMA DE PROVAS                            |")
+print("|                                             |")
+print("|_____________________________________________|")
+print("|Nome do Aluno(a)",nome)
+print("|Nota da primeira prova: ",nt01)
+print("|Nota da sgunda prova: ",nt02)
+print("|Nota da terceira prova: ",nt03)
+print("|                                             |")
+print("|_____________________________________________|")
+print("|Aluno(a): ",nome)
+print("|Média: ",media)
+
+if media >= 5:
+    print("|Aprovado(a)")
+
+elif media < 5:
+    print("|Reprovado(a)")

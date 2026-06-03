@@ -52,3 +52,31 @@
 
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
+print("""
+------------------------------|
+| Calculadora
+|------------------------------|
+| 1 - Soma
+| 2 - Subtração
+| 3 - Multiplicação
+| 4 - Divisão 
+ |------------------------------|
+""")
+opc = input("| Digite o número da opção desejada: ")
+n1 = float(input("| Digite o primeiro número: "))
+n2 = float(input("| DIgite o segundo número: "))
+
+if opc == "1":
+    print(f"| o resultado é: {n1+n2}")
+
+elif opc == "2":
+    print(f"| p resultado é: {n1-n2}")
+
+elif opc == "3":
+    print(f"| o resultado é: {n1*n2}")
+
+elif opc == "4":
+    print(f"| o resultado é {n1/n2}")
+
+else:
+    print("OPÇÃO INVÁLIDA!!")
